@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en" class="lang-en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Briche--Caron Paul – E-Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- FLOATING TOPBAR -->
+  <header class="topbar">
+    <div class="topbar__left">
+      <div class="topbar__avatar">
+        <img src="photo.jpg" alt="Portrait of Briche--Caron Paul" />
+      </div>
+      <div class="topbar__name">Briche--Caron Paul</div>
+    </div>
+    <div class="topbar__right">
+      <!-- Desktop buttons -->
+      <a class="btn btn--linkedin" href="https://www.linkedin.com/in/paul-briche--caron/" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM0 8.99h5V24H0zM8.5 8.99h4.79v2.04h.07c.67-1.27 2.3-2.61 4.74-2.61 5.07 0 6 3.34 6 7.68V24h-5v-7.95c0-1.9-.03-4.34-2.64-4.34-2.64 0-3.04 2.06-3.04 4.2V24h-5z"/>
+        </svg>
+        <span data-lang="en">View my LinkedIn</span>
+        <span data-lang="fr">Voir mon LinkedIn</span>
+      </a>
+
+      <a class="btn btn--ghost" href="#contact">
+        <span data-lang="en">Contact</span>
+        <span data-lang="fr">Contact</span>
+      </a>
+      <a class="btn btn--ghost" href="#cv">
+        <span data-lang="en">Resume</span>
+        <span data-lang="fr">CV</span>
+      </a>
+
+      <!-- Language switch -->
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button class="lang-btn" data-lang-switch="en" aria-pressed="true">EN</button>
+        <button class="lang-btn" data-lang-switch="fr" aria-pressed="false">FR</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero hero--split fade-scroll">
+    <div class="hero__image">
+      <img src="photo.jpg" alt="Portrait of Briche--Caron Paul">
+    </div>
+    <div class="hero__content">
+      <h1>
+        <span data-lang="en">Engineering student at ENSEEIHT • COMPUTER SCIENCE</span>
+        <span data-lang="fr">Étudiant en ingénierie à l’ENSEEIHT • SCIENCE DU NUMERIQUE</span>
+      </h1>
+      <p class="hero__sub">
+        <span data-lang="en">E-Portfolio: a collection of projects, studies, and personal experiences reflecting my path in engineering, innovation, and commitment.</span>
+        <span data-lang="fr">E-portfolio : une sélection de projets, d’études et d’expériences qui reflètent mon parcours en ingénierie, innovation et engagement.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT + CONTACT -->
+  <section id="about" class="about fade-scroll">
+    <div class="about__grid">
+      <article class="block about__text">
+        <h2>
+          <span data-lang="en">About me</span>
+          <span data-lang="fr">À propos</span>
+        </h2>
+        <p>
+          <span data-lang="en">
+             After two years of preparatory classes at Massena (Nice), I am delighted to join the COMPUTER SCIENCE program at ENSEEIHT. 
+          This path lets me deepen the fields I care about most — new technologies and AI — while building robust, hands-on skills.
+          </span>
+          <span data-lang="fr">
+            Après deux années de classe préparatoire à Massena (Nice), je suis ravi(e) d'intégrer le programme INFORMATIQUE de l'ENSEEIHT.
+			Ce parcours me permet d'approfondir mes domaines de prédilection – les nouvelles technologies et l'IA – tout en développant de solides compétences pratiques.
+        </p>
+
+        <!-- ABOUT IMAGE (ratio 682x322, no caption) -->
+        <figure class="about__photo">
+          <img src="about.jpg" alt="about_photo">
+        </figure>
+      </article>
+
+      <aside id="contact" class="sidebar">
+        <div class="block contact-card">
+          <h3>
+            <span data-lang="en">Contact</span>
+            <span data-lang="fr">Contact</span>
+          </h3>
+          <ul class="contact-list">
+            <li>
+              <span>Email</span>
+              <a href="mailto:paul.brichecaron@etu.toulouse-inp.fr">paul.brichecaron@etu.toulouse-inp.fr</a>
+            </li>
+            <li>
+              <span data-lang="en">Phone</span>
+              <span data-lang="fr">Téléphone</span>
+              <a href="tel:+33652164345">+33 6 52 16 43 45</a>
+            </li>
+            <li>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/paul-briche--caron/" target="_blank" rel="noopener">linkedin.com/in/paul-briche--caron</a>
+            </li>
+          </ul>
+          <a class="btn btn--linkedin btn--full" href="https://www.linkedin.com/in/paul-briche--caron/" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8.99h5V24H0V8.99zM8.5 8.99h4.79v2.04h.07c.67-1.27 2.3-2.61 4.74-2.61 5.07 0 6 3.34 6 7.68V24h-5v-7.95c0-1.9-.03-4.34-2.64-4.34-2.64 0-3.04 2.06-3.04 4.2V24h-5V8.99z"/>
+            </svg>
+            <span data-lang="en">View my LinkedIn</span>
+            <span data-lang="fr">Voir mon LinkedIn</span>
+          </a>
+        </div>
+
+<!-- Section vidéo -->
+	<div class="block video-card fade-scroll">
+	<h3>
+		<span data-lang="en">My Introduction Video</span>
+		<span data-lang="fr">Ma vidéo de présentation</span>
+	</h3>
+
+	<a class="btn btn--video" href="video.mp4" target="_blank">
+		<span data-lang="en">▶ Watch the video</span>
+		<span data-lang="fr">▶ Voir la vidéo</span>
+	</a>
+	</div>
+	</div> <!-- fin .contact-card -->
+    </aside>
+	
+
+
+  <!-- MAIN GRID -->
+  <main class="grid">
+    <section id="civic" class="block block--civic fade-scroll">
+      <h2>
+        <span data-lang="en">Civic Engagement</span>
+        <span data-lang="fr">Engagement citoyen</span>
+      </h2>
+      <p>
+        <span data-lang="en">
+          For my third-year internship, I plan to join a solidarity trip to Nepal — to learn from the local culture and share my skills with children living in very different conditions, while contributing in a meaningful way.
+        </span>
+        <span data-lang="fr">
+          Pour mon stage de L3, je souhaite participer à un voyage solidaire au Népal — pour apprendre de la culture locale et partager mes compétences auprès d’enfants vivant dans des conditions très différentes, tout en apportant une aide concrète.
+        </span>
+      </p>
+      <div class="gallery">
+        <img src="photo_1.jpg" alt="Nepal solidarity project — 1">
+        <img src="photo_2.jpg" alt="Nepal solidarity project — 2">
+        <img src="photo_4.png" alt="Nepal solidarity project — 3">
+        <img src="photo_3.jpg" alt="Nepal solidarity project — 4">
+      </div>
+    </section>
+
+    <section id="engineering" class="block fade-scroll">
+      <h2>
+        <span data-lang="en">Engineering Courses</span>
+        <span data-lang="fr">Cursus d’ingénierie</span>
+      </h2>
+      <p>
+        <span data-lang="en">
+          For my second-year preparatory project (TIPE), I built a small experimental about bouncing ball and coded a python script to understand its movement.
+        Key takeaways: Python programming and practical energy analysis of a full system.
+        </span>
+        <span data-lang="fr">
+          Pour mon projet de deuxième année (TIPE), j'ai construit une petite expérience sur le rebond d'une balle et codé un script Python pour comprendre son mouvement.
+		  Points clés: Programmation Python et analyse énergétique pratique d'un système complet.
+        </span>
+      </p>
+      <img class="block__img" src="image.png" alt="Engineering project image">
+    </section>
+
+    <section id="mobility" class="block fade-scroll">
+      <h2>
+        <span data-lang="en">Mobility</span>
+        <span data-lang="fr">Mobilité</span>
+      </h2>
+      <p>
+        <span data-lang="en">
+          I aim to study for one semester in the UK to work in the world's top three AI pioneers, while developing my technical English and cross-cultural skills.
+        </span>
+        <span data-lang="fr">
+          Mon objectif est d'étudier pendant un semestre au Royaume-Uni pour travailler dans un des trois meilleurs pionniers mondiaux de l'IA, 
+		  tout en développant mon anglais technique et mes compétences interculturelles.
+      </p>
+    </section>
+
+    <section id="sports" class="block fade-scroll">
+      <h2>
+        <span data-lang="en">Sports & Activities</span>
+        <span data-lang="fr">Sports & activités</span>
+      </h2>
+      <ul>
+        <li>
+          <span data-lang="en">JUDO, black belt — perseverance, discipline, and respect</span>
+          <span data-lang="fr">JUDO, ceinture noire - perseverance,discipline et respect</span>
+        </li>
+        <li>
+		<span data-lang="en">Strength training coach in highschool - team management and responsability.</span>
+          <span data-lang="fr">Coach en musculation au lycée - gestion d'equipe et responsabilité</span>
+        </li>
+        <li>
+          <span data-lang="en">Teaching mathematics  - listening skill and teaching skills</span>
+          <span data-lang="fr">>Cours de mathématique - capacité d'écoute et compétence pédagogique </span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CAREER DEVELOPMENT -->
+    <section id="career" class="block block--career fade-scroll">
+      <h2>
+        <span data-lang="en">Career Development</span>
+        <span data-lang="fr">Développement professionnel</span>
+      </h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__date">2025</div>
+          <div class="timeline__content">
+            <span data-lang="en">Admission to ENSEEIHT — major in COMPUTER SCIENCE</span>
+            <span data-lang="fr">Arrivée à l’ENSEEIHT — filière SCIENCE DU NUMERIQUE</span>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__date">2023-2025</div>
+          <div class="timeline__content">
+            <span data-lang="en">Preparatory classes at Massena (Nice)</span>
+            <span data-lang="fr">Classe préparatoire a Massena ( Nice)</span>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__date">2023</div>
+          <div class="timeline__content">
+            <span data-lang="en">High school diploma — highest honors</span>
+            <span data-lang="fr">Obtention du baccalauréat - Mention trés bien</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="cv" class="block block--cv fade-scroll">
+      <h2>
+        <span data-lang="en">Resume</span>
+        <span data-lang="fr">CV</span>
+      </h2>
+
+      <!-- A4 IMAGE VIEWER (robuste mobile/desktop) -->
+      <figure class="cv-a4">
+        <img class="cv-img" data-lang="en" src="CV_en.png" alt="Resume - English (A4)">
+        <img class="cv-img" data-lang="fr" src="CV_fr.png" alt="CV - Français (A4)">
+      </figure>
+
+      <div class="cv-actions">
+        <a class="btn btn--download" data-lang="en" href="CV_en.pdf" download>Download my Resume</a>
+        <a class="btn btn--download" data-lang="fr" href="CV_fr.pdf" download>Télécharger mon CV</a>
+
+        <a class="btn btn--ghost" href="#contact">
+          <span data-lang="en">Contact</span>
+          <span data-lang="fr">Contact</span>
+        </a>
+
+        <a class="btn btn--linkedin" href="https://www.linkedin.com/in/paul-briche--caron/" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM0 8.99h5V24H0V8.99zM8.5 8.99h4.79v2.04h.07c.67-1.27 2.3-2.61 4.74-2.61 5.07 0 6 3.34 6 7.68V24h-5v-7.95c0-1.9-.03-4.34-2.64-4.34-2.64 0-3.04 2.06-3.04 4.2V24h-5z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span data-lang="en">© 2025 Briche--Caron Paul — E-Portfolio - Made with AI help</span>
+    <span data-lang="fr">© 2025 Briche--Caron Paul — E-Portfolio - Réalisé avec l'aide d'une IA</span>
+  </footer>
+
+  <script>
+    // Scroll reveal (failsafe)
+    (function(){
+      const els = document.querySelectorAll('.fade-scroll');
+      function revealAll(){ els.forEach(el => el.classList.add('is-visible')); }
+      if(!('IntersectionObserver' in window)){ revealAll(); return; }
+      const io = new IntersectionObserver((entries)=>{
+        entries.forEach((e,i)=>{ if(e.isIntersecting){ setTimeout(()=>e.target.classList.add('is-visible'), i*120); }});
+      },{rootMargin:'0px 0px -10% 0px', threshold:0.1});
+      els.forEach(el=>io.observe(el));
+      setTimeout(()=>{
+        if(!Array.from(els).some(el=>el.classList.contains('is-visible'))) revealAll();
+      },2000);
+    })();
+
+    // Language switch
+    (function(){
+      const root = document.documentElement;
+      const enBtn = document.querySelector('[data-lang-switch="en"]');
+      const frBtn = document.querySelector('[data-lang-switch="fr"]');
+      function setLang(lang){
+        if(lang==='fr'){
+          root.classList.remove('lang-en'); root.classList.add('lang-fr');
+          enBtn.setAttribute('aria-pressed','false'); frBtn.setAttribute('aria-pressed','true');
+        }else{
+          root.classList.remove('lang-fr'); root.classList.add('lang-en');
+          enBtn.setAttribute('aria-pressed','true'); frBtn.setAttribute('aria-pressed','false');
+        }
+      }
+      enBtn.addEventListener('click',()=>setLang('en'));
+      frBtn.addEventListener('click',()=>setLang('fr'));
+    })();
+  </script>
+</body>
+</html>
